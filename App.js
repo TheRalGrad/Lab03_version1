@@ -3,7 +3,7 @@ import Charactercard from './CharacterCard';
 import './App.css'
 import _ from 'lodash'
 
-let message = 'Hello';
+let message = 'advanced';
 
 const prepareStateFromWord = (given_word) => {
   let word = given_word.toUpperCase()
@@ -34,12 +34,11 @@ class App extends React.Component {
         }
       }
   }
-  
 
   render() {
     return (
       <div>
-        <h2>Game Card Very Fun</h2>
+         <h2>Card Game for lab</h2>
         {
           Array.from(this.state.chars).map((item, index) => (
             <Charactercard
