@@ -34,10 +34,12 @@ class App extends React.Component {
         }
       }
   }
+  
 
   render() {
     return (
       <div>
+        <h2>Game Card Very Fun</h2>
         {
           Array.from(this.state.chars).map((item, index) => (
             <Charactercard
