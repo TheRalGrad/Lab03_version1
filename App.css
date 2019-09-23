@@ -1,16 +1,16 @@
 .card {
   display: inline-block;
-  text-align: left;
-  width: 3em;
-  font-size: 2em;
+  text-align: center;
+  width: 5em;
+  font-size: 3em;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  margin: 1em;
+  margin: 3em;
   user-select: none;
  }
 
  .activeCard {
   color: purple;
-  background: gray;
+  background: pink;
  }
 
  

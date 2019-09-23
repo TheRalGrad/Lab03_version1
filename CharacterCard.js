@@ -8,6 +8,7 @@ import React from 'react';
         }
 
         activate = () => {
+            let blackgroud =
             this.setState({
                 active: !this.state.active
             });
